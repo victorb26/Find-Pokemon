@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html, body {
+    height:  100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, white, rgba(0, 98, 255, 0.404));
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+  }
+h1{
+ font-family:'poke-letra';
+ justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    color:rgba(4, 0, 246, 0.698);
+}
+
+.pesquisa{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+#personagens{
+display: none;
+}
+#pokemonlogo{
+    display: flex;
+    margin: auto;
+}
+h1{
+    font-family:'poke-letra';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+button{
+    font-family:'poke-letra';
+    color: blue;
+    background-color: rgb(255, 208, 0);
+}
+#nome{
+    font-family:'poke-letra';
+    color: blue;
+    background-color: rgb(255, 208, 0);
+}
+#sprite{
+    margin: auto;
+}
+img{
+    width: 288px;
+    height: 288px;
+   
+}
+@font-face {
+    font-family: 'poke-letra';
+    src: url(../fonts/PokemonSolid.ttf) format('truetype');
+}
+@media (max-width: 700px){
+    #pokemonlogo{
+        width: 50%;
+        height: 100%;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        font-family:'poke-letra';
+    }
+    img{
+        width: 150px;
+        height: 150px;
+}
